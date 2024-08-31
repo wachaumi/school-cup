@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(https://pranx.com/hacker/green-back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.quest{
+    height: 15px;
+}
+.quest .test{
+    width: 30%;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+.choice{
+    height: 48px;
+    background-color: #0f0;
+    display: flex;
+}
+.choice h1{
+    background-color: #0f0;
+    font-size: 25px;
+}
+.quest .test img{
+    width: 48px;  
+    height: 48px;
+    background-color: rgb(85, 84, 124);
+}
+.quest .test .found{
+    margin: 0; 
+}
+.quest .test .found p{
+   margin: 3px;
+   background-color: rgb(61, 61, 61);
+   border: solid;
+   border-width: thin;
+   border-color: rgb(197, 197, 197); 
+}
+.file{
+    display: none;
+}
+.file-1{
+    display: none;
+}
+.file-2{
+    display: none;
+}
+.file-3{
+    display: none;
+}
+.file-4{
+    display: none;
+}
+.file-5{
+    display: none;
+}
+.check-tys-1{
+    display: none;
+}
+.check-tys-2{
+    display: none;
+}
+#box1{
+    width: 16%;
+    height: 10%;
+    margin: 1px 2px 0px 1px;
+    padding: 0px 0px 200px 0px;
+    border:solid;
+    border-color: #0f0;
+    border-radius: 5%;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    cursor: move;
+}
+#box1 h1{
+    color: #ffffff;
+}
+#box1 p{
+    color: #ffffff;
+}
+#box2{
+    cursor: move;
+    position: absolute;
+    width: 25%;
+    border: solid;
+    border-color: #0f0;
+    border-radius: 5%;
+    top: 200px;
+    left: 350px;
+}
+#box2 h1{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0;
+}
+#box2 h2{
+    color: #ffffff;
+    font-size: 17px;
+    padding: 0;
+}
+#box2 p{
+    color: #ffffff;
+    font-size: 17px;
+    padding: 0;
+}

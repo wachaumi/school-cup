@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.drag-and-drop {
+    cursor: move;
+    position: absolute;
+    z-index: 1000;
+}
+.drag {
+    z-index: 1001;
+}
+#red-box {
+    top: 100px;
+    left: 100px;
+    background-color: #f48fb1;
+    width: 100px;
+    height: 100px;
+}
